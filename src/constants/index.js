@@ -194,7 +194,7 @@ const projects = [
 
         ],
         live_link:"https://react-quick-food.firebaseapp.com/",
-        image: "https://react-quick-food.firebaseapp.com/",
+        image: "https://www.mooc.org/hubfs/what-computer-programming-jobs-offer-remote-work-jpg.jpeg",
         source_code_link: "https://github.com/warrenposo/eassymealapp?tab=readme-ov-file",
     },
     {
@@ -216,7 +216,7 @@ const projects = [
             },
         ],
         live_link:"https://tasty-react.vercel.app/",
-        image: "https://tasty-react.vercel.app/",
+        image: "https://www.mooc.org/hubfs/what-computer-programming-jobs-offer-remote-work-jpg.jpeg",
         source_code_link: "https://github.com/warrenposo/tasteywebapp",
     },
     {
@@ -238,7 +238,7 @@ const projects = [
             },
         ],
         live_link:"https://kenya.ilu.edu/",
-        image: "https://kenya.ilu.edu/",
+        image: "https://www.mooc.org/hubfs/what-computer-programming-jobs-offer-remote-work-jpg.jpeg",
         source_code_link: "",
     },
 ];
