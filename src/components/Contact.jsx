@@ -32,8 +32,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     emailjs.send(
-      "service_bjkztlc",
-      "template_mkcjjpo",
+      "service_vosj7ec",
+      "template_p0iehrq",
       {
         from_name: form.name,
         to_name: 'warren',
