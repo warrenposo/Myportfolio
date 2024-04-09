@@ -41,7 +41,7 @@ const Contact = () => {
         to_email: 'warrenokumu98@gmail.com',
         message: form.message
       },
-      'TWC_BgRu7mpDsxQBW'
+      'yxd_kXTe39Ez82xDt'
     ).then(() => {
       setLoading(false);
       alert("Thank you. Warren will reach out to you soon.");
