@@ -29,7 +29,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link ,
               <img src={github} alt='github' className='hover:underline w-1/2 h-1/2 object-contain ' />
 
             </a>
-            <a  href={live_link_link}  target="_blank" className='w-10 h-10 rounded-full flex justify-center curser-pointer'>
+            <a  href={live_link}  target="_blank" className='w-10 h-10 rounded-full flex justify-center curser-pointer'>
               <h1 className='text-red-900 text-center font-bold text-xl '>Live</h1>
 
             </a>
