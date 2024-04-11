@@ -8,7 +8,7 @@ import { textVariant, fadeIn } from '../utils/motion';
 import { staggerContainer } from '../utils/motion';
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link ,live_link}) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -25,14 +25,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             alt={name}
             className='w-full h-full object-cover rounded-2xl' />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div onClick={() => window.open(source_code_link, _blank)} className='black-gradient w-10 h-10 rounded-full flex justify-center curser-pointer'>
+            <a href={source_code_link}  target="_blank" className='black-gradient w-10 h-10 rounded-full flex justify-center curser-pointer'>
               <img src={github} alt='github' className='hover:underline w-1/2 h-1/2 object-contain ' />
 
-            </div>
-            <div onClick={() => window.open(live_link, _blank)} className='w-10 h-10 rounded-full flex justify-center curser-pointer'>
+            </a>
+            <a  href={live_link_link}  target="_blank" className='w-10 h-10 rounded-full flex justify-center curser-pointer'>
               <h1 className='text-red-900 text-center font-bold text-xl '>Live</h1>
 
-            </div>
+            </a>
           </div>
         </div>
         <div className='mt-5 '>
